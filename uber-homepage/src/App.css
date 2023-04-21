@@ -1,0 +1,54 @@
+/* In src/App.css */
+.App {
+  text-align: center;
+}
+
+/* In src/components/HomePage.css */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #000;
+  color: #fff;
+}
+
+nav ul {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+button {
+  margin: 1rem;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  color: #fff;
+  background-color: #000;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+footer {
+  padding: 1rem;
+  background-color: #ddd;
+  text-align: center;
+}
